@@ -1,0 +1,61 @@
+﻿//comandos
+//ver opção de criação
+dotnet new -h
+
+//criando referencia do projeto com a libary
+dotnet add projeto/projeto.csproj reference projeto.lib/projeto.lib.csproj
+
+//criando referencia do projeto e da libary com a solu��o
+dotnet sln solution add projeto/projetocsproj projeto.lib/projeto.lib.csproj
+
+//execução assistido, sempre que salvar ele executa novamente automaticamente
+dotnet watch run
+
+//instalando o sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.9
+
+//entity framework
+dotnet ef migrations add [nome]
+
+//criando camadas
+dotnet new classlib -n ProAgil.Domain
+
+//quando tirar do github
+//instalando bootstrap com Font Awesome
+npm install --save bootstrap @fortawesome/fontawesome-free
+
+//instalando ngx bootstrap - angular
+npm install ngx-bootstrap --save
+
+npm install ngx-toast --save
+
+//instalar AutoMapper 4.0.0 no WebAPI
+AutoMapper.Extensions.Microsoft.DepensencyInjection
+
+//instalando o EF core 2.2 no Domain - nuget
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+//testando
+acessar o link 
+
+//criando banco de dados em repository com ef core
+dotnet ef --startup-project ../ProAgil.WebAPI database update
+
+//instalando o jwt helpers
+npm i @auth0/angular-jwt
+
+//gerando o angular guard
+ng g g pasta/nome
+
+//formado moeda no angular
+npm i ngx-currency
+
+//bootswatch do bootstrap
+npm i bootswatch
+
+//deploy angular
+//mudando nome dos arquivos no deploy para evitar bugs visuais para o usuarios final
+npm install source-map-explorer --save-dev
+
+//relembrando deploy
+ng build --prod --source-map

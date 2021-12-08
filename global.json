@@ -1,0 +1,6 @@
+{
+    "_comment" : "Especificando a versão que os sistema usarão",
+    "sdk": {
+        "version": "2.2.207" 
+    }
+}

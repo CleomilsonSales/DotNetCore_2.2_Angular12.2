@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* importação do bootstrap e do Font Awesome*/
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
+
+/* ajuste no tempo do toast, caso não seja sertado isso abaixo, a div fica transparente */
+#toast-container > div {
+  opacity: 1;
+}
